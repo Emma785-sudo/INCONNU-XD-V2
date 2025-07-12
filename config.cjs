@@ -3,9 +3,9 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "",
+  SESSION_ID: process.env.SESSION_ID || "INCONNU~XD~ehIQWLpY#oJ7biyH10-zJCbc8IVjz5vKfynO9JoFFag8SDx47xzE",
   PREFIX: process.env.PREFIX || '.',
-   BOT_NAME: process.env.BOT_NAME || "INCONNU XD V2",
+   BOT_NAME: process.env.BOT_NAME || "𝙳𝚈𝙻𝙰𝙽",
    BOT: process.env.BOT || "hello 👋",
   NEW_CMD: process.env.NEW_CMD || "ᴀᴅᴅᴠᴀʀ\n│ sᴜᴅᴏ\n| inconnu",
   CAPTION: process.env.CAPTION|| "ᴘᴏᴡᴇʀᴇᴅ ʙʏ inconnu boy",
@@ -40,8 +40,8 @@ const config = {
   MODE: process.env.MODE || "public",
   DELETED_MESSAGES_CHAT_ID: process.env.DELETED_MESSAGES_CHAT_ID || "554488138425@s.whatsapp.net",
   OWNER_NAME: process.env.OWNER_NAME || "INCONNU BOY",
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "554488138425",
-  SUDO_NUMBER: process.env.SUDO_NUMBER || "554488138425",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "243983278829",
+  SUDO_NUMBER: process.env.SUDO_NUMBER || "243983278829",
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyCUPaxfIdZawsKZKqCqJcC-GWiQPCXKTDc",
   WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false, 
 };
